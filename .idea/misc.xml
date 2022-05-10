@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable-v24/btn_border.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/button_curve.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/ic_edit.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/ic_flash_off.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/ic_flash_on.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/selector.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/drawable/time_border.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/font/source_sans_pro.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/font/source_sans_pro_bold.xml" value="2.0" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/layout/fragment_q_rcode_sanner.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/layout/front_page_fragment.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
         <entry key="..\:/Late-Entry-Project/app/src/main/res/drawable/edit_text_background.xml" value="0.198" />
         <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
         <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/report.xml" value="0.2" />

@@ -1,17 +1,16 @@
 package com.example.lateentryproject
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.lateentryproject.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.example.lateentryproject.UI.FrontPageFragment
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container, FrontPageFragment())
+        transaction.commit()
 
-        supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView, Report()).commit()
     }
 }
