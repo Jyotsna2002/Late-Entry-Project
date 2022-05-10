@@ -2,5 +2,12 @@
     <string name="app_name">Late Entry Project</string>
     <string name="report">Report</string>
     <string name="show_more_rows"><u>Show more rows</u></string>
-    <string name="guidelines">1. Fine would be automatically deducted from your <b>security money.</b>\n2. Fine would be deducted after <b>n consecutive late entries in a month.</b>\n3. If there is issue to scan the barcode <b>manually enter the roll no.</b> mentioned on the ID card.</string>
+    <string name="scan_barcode_to_register_a_late_entry">Scan BarCode <font size="13" color="#787878">\nTo Register a Late Entry</font></string>
+    <string name="guidelines">1. Fine would be automatically deducted from your <font  color="#383D3B"><b>security money.</b></font> \n2. Fine would be deducted after <font  color="#383D3B"><b>n consecutive late entries in a month.</b></font> \n3. If there is issue to scan the barcode <font  color="#383D3B"><b>manually enter the roll no.</b></font> mentioned on the ID card.</string>
+    <string name="grant">Grant</string>
+    <string name="cancel">Cancel</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="we_need_permission">We need camera permission to scan QR codes. Go to App Settings and manage
+        permissions
+    </string>
 </resources>

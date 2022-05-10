@@ -12,16 +12,15 @@ import coil.request.ImageRequest
 import coil.request.SuccessResult
 import com.example.lateentryproject.UI.Fragment.Login
 import com.example.lateentryproject.databinding.ActivityMainBinding
+import com.example.lateentryproject.UI.FrontPageFragment
 
 class MainActivity : AppCompatActivity() {
-	private lateinit var binding: ActivityMainBinding
-	private lateinit var database: PicDatabase
-	private lateinit var adapter: RecyclerAdapter
-
-	override fun onCreate(savedInstanceState: Bundle?) {
-		super.onCreate(savedInstanceState)
-		binding = ActivityMainBinding.inflate(layoutInflater)
-		setContentView(binding.root)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container, FrontPageFragment())
+        transaction.commit()
 
 		AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
