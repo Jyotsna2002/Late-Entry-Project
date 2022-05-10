@@ -11,6 +11,7 @@
         android:background="@drawable/login_background">
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_badge"
@@ -24,7 +25,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="96dp"
             android:fontFamily="@font/source_sans_pro_bold"
-            android:text="LATE ENTRY\nSYSTEM"
+            android:text="CONFIGURE\nYOUR APP"
             android:textColor="@color/white"
             android:textSize="40sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +38,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="131dp"
             android:fontFamily="@font/source_sans_pro_bold"
-            android:text="Enter your Email Address"
+            android:text="Select Venue"
             android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +46,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
@@ -57,7 +58,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/materialTextView2">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_curved_edge"
@@ -70,42 +71,17 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/materialTextView3"
+            android:id="@+id/materialTextView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="31dp"
-            android:fontFamily="@font/source_sans_pro_bold"
-            android:text="Enter your Password"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="28dp"
+            android:text="You can change these configurations in the settings menu"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout2"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="13dp"
-            android:layout_marginEnd="27dp"
-            android:paddingBottom="71dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/materialTextView3"
-            app:passwordToggleEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edittext_curved_edge"
-                android:fontFamily="@font/source_sans_pro_light"
-                android:imeOptions="actionDone"
-                android:inputType="textPassword"
-                android:textColor="#7C7C7C"
-                android:textSize="20sp" />
-        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/loginBtn"
@@ -114,11 +90,11 @@
             android:layout_marginStart="59dp"
             android:layout_marginEnd="59dp"
             android:backgroundTint="@color/white"
-            android:text="Login"
+            android:text="Continue"
             app:cornerRadius="26dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView4" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
