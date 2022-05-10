@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark">#333333</color>
     <color name="grey">#EDEDED</color>
+    <color name="login_background_color">#383D3B</color>
 </resources>
