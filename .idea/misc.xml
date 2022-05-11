@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/Late-Entry-Project/app/src/main/res/drawable/edit_text_background.xml" value="0.198" />
         <entry key="..\:/Late-Entry-Project/app/src/main/res/drawable/edittext_curved_edge.xml" value="0.198" />
-        <entry key="..\:/Late-Entry-Project/app/src/main/res/drawable/login_background.xml" value="0.198" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/drawable/login_background.xml" value="0.245" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/font/source_sans_pro_bold.xml" value="0.12916666666666668" />
         <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
-        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/config.xml" value="0.4" />
-        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/login.xml" value="0.264" />
-        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/photo_list.xml" value="0.25" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/config.xml" value="0.2390625" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/fragment_config.xml" value="0.2390625" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/fragment_q_rcode_sanner.xml" value="0.2390625" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/front_page_fragment.xml" value="0.2390625" />
+        <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/login.xml" value="0.14166666666666666" />
         <entry key="..\:/Late-Entry-Project/app/src/main/res/layout/report.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/layout/fragment_q_rcode_sanner.xml" value="0.12952898550724637" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/LateEntryProject/app/src/main/res/layout/front_page_fragment.xml" value="0.12952898550724637" />

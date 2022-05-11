@@ -1,35 +1,30 @@
-package com.example.lateentryproject
+package com.example.lateentryproject.ui.activities
 
-import android.graphics.Bitmap
-import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.databinding.DataBindingUtil
 import androidx.room.Room
-import coil.ImageLoader
-import coil.request.ImageRequest
-import coil.request.SuccessResult
-import com.example.lateentryproject.UI.Fragment.Login
+import com.example.lateentryproject.PicDatabase
+import com.example.lateentryproject.R
 import com.example.lateentryproject.databinding.ActivityMainBinding
-import com.example.lateentryproject.UI.FrontPageFragment
+import com.example.lateentryproject.ui.fragments.FrontPageFragment
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container, FrontPageFragment())
-        transaction.commit()
+//	private lateinit var database: PicDatabase
+	private lateinit var binding: ActivityMainBinding
+
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+//		supportFragmentManager.beginTransaction().replace(R.id.container, FrontPageFragment())
+//			.commit()
 
 		AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
-		database = Room.databaseBuilder(applicationContext, PicDatabase::class.java, "picDB")
-			.build()
-
-		supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView, Login())
-			.commit()
-		binding.apply {
+//		database = Room.databaseBuilder(applicationContext, PicDatabase::class.java, "picDB")
+//			.build()
 //			try {
 //				val field = CursorWindow::class.java.getDeclaredField("sCursorWindowSize")
 //				field.isAccessible = true
@@ -41,14 +36,12 @@ class MainActivity : AppCompatActivity() {
 //				val pic = Table(getBitmap())
 //				database.myDao().insertPic(pic)
 //			}
-
 //			recyclerView.isNestedScrollingEnabled = false
 //			database.myDao().getPics().observe(this@MainActivity) {
 //				adapter = RecyclerAdapter(it)
 //				recyclerView.adapter = adapter
-			}
-		}
 	}
+}
 
 //	private suspend fun getBitmap(): Bitmap {
 //		val loading = ImageLoader(this)
